@@ -1,14 +1,14 @@
-name: V2ex
+name: V2EX2WorkWechat
 
 on: # [push, pull_request]
   schedule:
     # 可自定义 cron 表达式
-    - cron: '0 2-11 * * *'
+    - cron: '0 2-12 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: hackee/v2ex-action@v1.0.3
+      - uses: hackee/v2ex-action@main
         with:
           webhook: ${{ secrets.WEBHOOK }}
           secret: ${{ secrets.SECRET }}
