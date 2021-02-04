@@ -1,6 +1,6 @@
-name: 'V2EX Action'
+name: 'V2EX2WorkWechat'
 description: 'GitHub Action for V2EX stories'
-author: 'yanglbme'
+author: 'hackee'
 branding:
   icon: 'arrow-right-circle'
   color: 'gray-dark'
