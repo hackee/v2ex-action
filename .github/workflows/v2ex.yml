@@ -1,6 +1,5 @@
 name: V2ex
 
-
 on: # [push, pull_request]
   schedule:
     # 可自定义 cron 表达式
@@ -9,7 +8,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: yanglbme/v2ex-action@v1.0.3
+      - uses: hackee/v2ex-action@v1.0.3
         with:
           webhook: ${{ secrets.WEBHOOK }}
           secret: ${{ secrets.SECRET }}
