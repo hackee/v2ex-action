@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/yanglbme/v2ex-action">
+  <a href="https://github.com/hackee/v2ex-action">
     <img src="./images/logo.png">
   </a>
 </p>
