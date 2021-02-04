@@ -1,7 +1,10 @@
 name: V2ex
 
-on: [push, pull_request]
 
+on: # [push, pull_request]
+  schedule:
+    # 可自定义 cron 表达式
+    - cron: '0 2-11 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
