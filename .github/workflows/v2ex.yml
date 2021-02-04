@@ -1,9 +1,9 @@
 name: V2EX2WorkWechat
 
-on: # [push, pull_request]
+on: 
   schedule:
-    # 可自定义 cron 表达式
     - cron: '0 2-12 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
