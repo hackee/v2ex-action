@@ -2,7 +2,7 @@ name: V2EX2WorkWechat
 
 on: 
   schedule:
-    - cron: '0 2-12 * * *'
+    - cron: '* * * * *'
 
 jobs:
   build:
