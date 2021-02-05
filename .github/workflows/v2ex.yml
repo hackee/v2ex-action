@@ -1,8 +1,7 @@
 name: V2EX2WorkWechat
 
 on: 
-  schedule:
-    - cron: '* * * * *'
+  [workflow_dispatch]
 
 jobs:
   build:
